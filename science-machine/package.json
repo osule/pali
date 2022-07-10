@@ -1,0 +1,25 @@
+{
+  "name": "science-machine",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "build": "jetpack build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "jetpack": "^0.22.0",
+    "ts-loader": "^8.2.0",
+    "typescript": "^4.7.4"
+  }
+}
